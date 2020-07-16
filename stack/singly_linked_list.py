@@ -20,7 +20,7 @@ class LinkedList:
         # list is empty? 
         # Would it be better to check the head? 
         # Let's check them both: an empty linked list has an empty 
-        # head and an empty tail 
+        # head and an empty tail
         if self.head is None and self.tail is None:
             # in a one-element linked list, what should head and tail 
             # be referring to? 

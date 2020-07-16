@@ -40,6 +40,5 @@ class QueueTests(unittest.TestCase):
         self.assertIsNone(self.stack.pop())
         self.assertEqual(len(self.stack), 0)
 
-
 if __name__ == '__main__':
     unittest.main()
